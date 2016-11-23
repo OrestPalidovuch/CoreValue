@@ -1,0 +1,615 @@
+
+/*STYLE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - FONTS */
+/* 02 - GLOBAL SETTINGS */
+/* 03 - HEADER */
+/* 04 - BLOCK "TYPE 1" */
+/* 05 - BLOCK "TYPE 2" */
+/* 06 - BLOCK "TYPE 3" */
+
+/* 07 - FOOTER */
+
+
+/* 36 - COLOR OPTIONS */
+/* 37 - THEME CONFIG */
+/* 38 - CSS ANIMATIONS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - FONTS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+@font-face{
+src: url("MavenPro-Bold.ttf");
+font-family:"MavenPro-Bold";
+font-style: normal;
+font-weight: normal;
+}
+@font-face{
+src: url("MavenPro-Regular.ttf");
+font-family:"MavenPro-Regular";
+font-style: normal;
+font-weight: normal;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 02 - GLOBAL SETTINGS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/ 
+
+body{
+font-family:"MavenPro-Regular",Arial, Helvetica, sans-serif;
+font-size:14px;
+background: #222;
+color: white; 
+line-height: 1.7;
+}
+p{
+color:white;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - HEADER */
+/*-------------------------------------------------------------------------------------------------------------------------------*/ 
+
+.header{
+width:90%;
+padding-top:4%;
+margin:0 auto;
+}
+
+ul.menu{
+margin: 1.4% 0% 0% 0%;
+padding-left: 0px;
+height:auto;}
+
+ul.menu li{
+display:inline-block;
+text-decoration: none;
+margin-right:4%;
+color:#FFFFFF;
+cursor:pointer;
+padding-bottom:15px;
+height:40px;
+margin-bottom:0px;}
+
+ul.menu li:hover{
+color:#7DC01D;
+border-bottom: 3px solid #7DC01D;}
+
+ul.menu li ul.submenu{
+cursor: pointer;
+text-decoration:none;
+border-bottom:0 px;
+position:absolute;
+visibility:hidden;}
+
+ul.menu li.menuhover ul.submenu li{
+display:block;
+color:black;}
+
+ul.menu li.menuhover ul.submenu li:hover{
+display:block;
+color:rgb(125,192,29);}
+
+ul.menu li.menuhover:hover ul.submenu{
+margin-left:0;
+position:absolute;
+background:white;
+visibility:visible;
+width:130%;
+font-size:10pt;
+z-index:2;}
+
+.fa.fa-bars{
+font-size:13px;
+color:rgb(125,192,29);
+margin-right:5px;}
+
+.fa.fa-envelope-o{
+font-size:13px;
+color:rgb(125,192,29);
+margin-right:5px;	
+}
+.fa.fa-flag-o{
+font-size:13px;
+color:rgb(125,192,29);
+margin-right:5px;	
+}
+
+.fa.fa-table{
+font-size:13px;
+color:rgb(125,192,29);
+margin-right:5px;}
+
+.fa.fa-exchange{
+font-size:13px;
+color:rgb(125,192,29);
+margin-right:5px;}
+
+.fa.fa-play-circle-o{
+font-size:13px;
+color:rgb(125,192,29);
+margin-right:5px;}
+
+.fa.fa-users{
+font-size:13px;
+color:rgb(125,192,29);
+margin-right:5px;}
+
+ul.menu li.menuhover{
+color:rgb(125,192,29);
+border-bottom:solid rgb(125,192,29) 3px;}
+
+
+ul.submenu li{
+cursor: pointer;
+margin:0px;
+padding:0px;
+display:block;
+}
+
+ul.submenu li:hover  {
+color:rgb(125,192,29);
+border-bottom:none;
+display:block;}
+
+.bold{
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;
+color:	#7DC01D;
+}
+
+ul.profile{
+padding-left: 0px;	
+height:auto;
+margin: 1.4% 0% 0% 0%;
+}
+
+ul.profile li{
+display:inline-block;
+text-decoration: none;
+margin-right:4%;
+color:#9E9E9E;
+cursor:pointer;
+padding-bottom:15px;
+height:40px;
+margin-bottom:0px;
+}
+
+ul.profile li:hover{
+color:#7DC01D;
+border-bottom: 3px solid #7DC01D;
+}
+
+.glyphicon{
+color:#7DC01D;	
+}
+ 
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 04 - BLOCK "TYPE 1" */
+/*-------------------------------------------------------------------------------------------------------------------------------*/ 
+ 
+.background-image.col-xs-12{
+background-image:url(background.gif);
+clear:both;
+height:700px;
+padding: 130px 0 130px;
+background-repeat:no-repeat;
+margin-top:0%;
+overflow: hidden;
+background-position: center;
+background-size: cover;
+z-index:1;
+ }
+ 
+.bock-1 {
+display: block; 
+width: 188px;
+height: 188px;
+margin: 0 auto 23px; 
+padding: 60px 50px 0 50px; 
+background: url(comment.png) no-repeat; 	
+background-size:100%;
+line-height: 1;
+text-align: center; 
+ }
+ 
+.greenboldbig{
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;
+font-size: 2em;
+color: #7DC01D;
+display: block;
+width: 89px;
+height: 30px; 
+margin:0;
+padding:0;
+}
+
+.center{
+text-align: center; 
+}
+
+.title{
+margin-bottom: 20px;
+padding-bottom: 0;	
+}
+.boldbig{
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;
+font-size: 3em;
+color: #FFFFFF;
+}
+.green { 
+color: #7DC01D;
+ }
+
+.subtitle{
+width: auto;
+padding-left: 55px;
+padding-right: 55px;	
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+
+.button{
+margin-top: 30px;
+margin-bottom: 30px;
+display: inline-block;
+padding: 15px 20px 15px 12px;
+border-radius: 5px 0 5px 0;
+background: #7DC01D ;
+color: #FFFFFF;
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;
+width: 141px;
+margin-left: auto;
+margin-right: auto;
+height: 60px;
+cursor:pointer;
+}
+
+.button i{
+margin-left:5%;
+font-weight: 400;
+color: #FFFFFF;
+font-size: 12px;
+line-height: 30px;
+display: block;
+width: 30px;
+height: 30px;
+border-radius: 0 50% 50% 50%;
+background: #6DA918;
+float:left;	
+}
+
+.button-text{
+float:left;
+font-size: 16px;
+ }
+
+.white{
+color: #FFFFFF;	
+}
+ 
+ 
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 05 - BLOCK "TYPE 2" */
+/*-------------------------------------------------------------------------------------------------------------------------------*/ 
+ 
+.blockwhite{
+clear:both;
+background:rgb(255,255,255);
+color:rgb(34,34,34);
+margin-top:0%;
+overflow: hidden;
+background-position: center;
+background-size: cover;
+}
+
+.subblockwhite{
+width:90%;
+padding-top:4%;
+margin:0 auto;
+}
+
+b.title-2{
+color:rgb(34,34,34);
+}
+.subblocks-2.col-xs-12{
+margin-top:9%;
+}
+
+
+.bicon{
+background:rgb(125,192,29);
+border-radius:9px 50px 50px 50px;
+text-align:center;
+padding:15px 0px;
+color:rgb(255,255,255);
+width:60px;
+}
+
+.fa{
+font-size:30px;
+}
+.iconwaveright{
+background:url(iconwave.png) no-repeat center center;
+height:9px;
+width:99px;
+margin-top:3%;	
+margin-bottom:3%;
+}
+
+h4{
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;	
+}
+ 
+ h5{
+color: #7DC01D ;	 
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;
+ }
+ 
+.block2icon i{
+background: #7DC01D ;
+border-radius:9px 50px 50px 50px;
+color:#FFFFFF;
+text-align:center;
+width:22px;
+height:20px;
+padding-bottom:19px;
+padding-top:4px;
+margin-top:8%;
+margin-bottom:19%;
+}
+ 
+
+ 
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 07 - FOOTER */
+/*-------------------------------------------------------------------------------------------------------------------------------*/ 
+  
+  
+.footerbackground.col-lg-12{
+clear:both;
+background-image:url(footer.gif);	  
+height:600px;
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+
+}
+.subfooterbackground{
+width:90%;
+padding-top:4%;
+margin:0 auto;
+
+}
+
+.aa.col-lg-12{
+margin-top:5%;	
+}
+.ab.col-lg-12{
+margin-top:5%;	
+}
+.biconsm{
+background:rgb(125,192,29);
+border-radius:9px 50px 50px 50px;
+color:rgb(255,255,255);
+text-align:center;
+width:22px;
+height:20px;
+padding-bottom:22px;
+float:left;
+margin-right:3px;}
+
+.footertxt{
+float:left;
+font-weight: 700;
+font-size: 1em;
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;
+}
+
+.greenfooter{
+color: #7DC01D;
+float:left;
+margin-right:3px;
+font-weight: 700;
+font-size: 1em;
+font-family:"MavenPro-Bold",Arial, Helvetica, sans-serif;
+}
+
+.iconwave{
+background:url(iconwave.png) no-repeat center center;
+height:9px;
+width:99px;
+margin:0 auto;
+}
+.fa.fa-check{
+font-size:12px;	
+
+}
+.a.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;
+margin-top:5%;	
+border-bottom:solid rgb(255,255,255) 1px;
+border-right:solid rgb(255,255,255) 1px;
+}
+.b.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;
+margin-top:5%;	
+border-bottom:solid rgb(255,255,255) 1px;
+border-right:solid rgb(255,255,255) 1px;
+}
+.c.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;
+margin-top:5%;	
+border-bottom:solid rgb(255,255,255) 1px;	
+border-right:solid rgb(255,255,255) 1px;
+}
+.d.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;
+margin-top:5%;	
+border-bottom:solid rgb(255,255,255) 1px;
+}
+.e.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;
+border-right:solid rgb(255,255,255) 1px;
+}
+.f.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;
+border-right:solid rgb(255,255,255) 1px;
+}
+.g.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;
+border-right:solid rgb(255,255,255) 1px;
+}
+.h.col-lg-3{
+padding-top:2.5%;
+padding-bottom:2.5%;	
+}
+
+
+
+
+@media screen and (max-width: 991px){
+ul .submenu li.col-xs-4{
+width:50%;
+}
+	
+.footerbackground.col-lg-12{
+text-align:left;
+}
+
+
+.center{
+text-align: center; 
+}
+
+.aa.col-lg-12{
+margin:15px 0px;
+padding:0px;
+}
+.a.col-sm-12{
+margin:0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;
+}
+.b.col-sm-12{
+margin:15px 0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;
+}
+.c.col-sm-12{
+margin:0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;
+}
+.d.col-sm-12{
+margin:15px 0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;
+}
+.e.col-sm-12{
+margin:0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;
+}
+.f.col-sm-12{
+margin:15px 0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;
+}
+.g.col-sm-12{
+margin:0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;
+}
+.h.col-sm-12{
+margin:15px 0px;
+padding:0px;	
+border-bottom:none;
+border-right:none;	
+}
+}
+
+@media screen and (max-width: 1110px){
+.aa.col-lg-12{
+margin-top:1%;	
+}
+
+
+.a.col-sm-12{
+margin:0px;
+padding:0px;
+border-bottom:none;
+border-right:none;
+}
+.b.col-sm-12{
+margin:10px 0px;
+padding:0px;
+border-bottom:none;
+border-right:none;
+}
+.c.col-sm-12{
+margin:0px;
+padding:0px;
+border-bottom:none;
+border-right:none;
+}
+.d.col-sm-12{
+margin:10px 0px;
+padding:0px;
+border-bottom:none;
+border-right:none;
+}
+.e.col-sm-12{
+margin:0px;
+padding:0px;
+border-bottom:none;
+border-right:none;
+}
+.f.col-sm-12{
+margin:10px 0px;
+padding:0px;
+border-bottom:none;
+border-right:none;
+}
+.g.col-sm-12{
+margin:0px;
+padding:0px;
+border-bottom:none;
+border-right:none;
+}
+.h.col-sm-12{
+margin:10px 0px;
+padding:0px;
+border-bottom:none;
+border-right:none;	
+}
+}
